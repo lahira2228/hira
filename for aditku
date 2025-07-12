@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Adit, Balikan Yuk?</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      background-image: url('data:image/jpeg;base64,
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhURExMWFhUXGBgYGBgYGBkaGBgYGBgYGBcYGBgYHSggGBolHRgXITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGi0lHyUtLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABAEAABAwIDBQUFBAkDBwQDAAABAgMEAAURBhIhMUEHEyJRYXGBBjKRobEHI0JSwdHwM1NykqIVFyQzQ2OCkqOissLS4vEWM1T/xAAaAQACAwEBAAAAAAAAAAAAAAADBAECBQAG/8QALhEAAgIBAgQEBQUAAAAAAAAAAQIAAxESITEEE0FRYXGB8AUjM9HRIoGhscH/2gAMAwEAAhEDEQA/APX0...
+
+<!-- lanjut ke bagian 2 -->
