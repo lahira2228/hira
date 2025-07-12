@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Adit, Balikan Yuk?</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      background-image: url('data:image/jpeg;base64,
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhURExMWFhUXGBgYGBgYGBkaGBgYGBgYGBcYGBgYHSggGBolHRgXITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGi0lHyUtLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABAEAABAwIDBQUFBAkDBwQDAAABAgMEAAURBhIhMUEHEyJRYXGBBjKRobEHI0JSwdHwM1NykqIVFyQzQ2OCkqOissLS4vEWM1T/xAAaAQACAwEBAAAAAAAAAAAAAAADBAECBQAG/8QALhEAAgIBAgQEBQUAAAAAAAAAAQIAAxESITEEE0FRYXGB8AUjM9HRIoGhscH/2gAMAwEAAhEDEQA/APX0...
+
+<!-- lanjut ke bagian 2 -->     }
+    h1 {
+      font-size: 2.4em;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .message, p {
+      display: none;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      max-width: 700px;
+      border-radius: 12px;
+      font-size: 1.15em;
+      margin-top: 20px;
+    }
+    .btn {
+      margin: 20px 10px;
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .yes {
+      background-color: #48d1cc;
+      color: white;
+    }
+    .no {
+      background-color: #f08080;
+      color: white;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="data:audio/mpeg;base64,//uQxAAAAAAAAAAAAAAAAAAAAA... (mp3 base64 panjang) ..." type="audio/mpeg">
+    Browsermu tidak mendukung audio :(
+  </audio>
+
+  <h1>Adit, aku punya sesuatu buat kamu...</h1>
+
+  <div>
+    <button class="btn yes" onclick="showMessage()">Iya, aku mau balikan</button>
+    <button class="btn no" disabled>Enggak mau</button>
+  </div>
+
+  <div class="message" id="heartfeltMessage">
+    <p>
+      Adit... aku udah banyak mikir.<br><br>
+      Tentang kita, tentang hal-hal yang mungkin dulu belum bisa aku pahami dengan baik. Dulu aku kira cinta itu cukup dengan perasaan, ternyata cinta itu tentang belajar dan tumbuh bareng-bareng. Dan aku mau belajar, Dit. Belajar jadi pendengar yang baik, pasangan yang sabar, dan tempat pulang yang nyaman buat kamu.<br><br>
+      Aku tahu aku nggak sempurna. Tapi kalau kamu izinkan, aku ingin jadi lebih baik — bukan buat siapa-siapa, tapi buat kita. Buat hubungan yang dulu kita mulai dengan harapan, dan sekarang ingin aku jaga dengan ketulusan.<br><br>
+      Ingin punya rumah di tempat bersandar... bukan cuma lirik lagu, tapi harapan yang aku semogakan bareng kamu.<br><br>
+      Kalau kamu masih ada rasa, walau cuma sedikit... aku di sini, nunggu kamu, dengan versi diriku yang sedang terus belajar jadi lebih baik.<br><br>
+      🕊️ Terima kasih udah baca ini, Dit. Terima kasih kalau kamu mau kembali.
+    </p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("heartfeltMessage").style.display = "block";
+    }
+  </script>
+</body>
+</html>
+
